@@ -72,7 +72,45 @@
     color: var(--text-color);
     text-align: center;
 }
-.lorem{
+.lorem,.write_discription{
     color: var(--secondly-text-color);
+    font-weight: 400;
 }
 /* Coding to life section style end */
+
+.write_titel{
+    font-weight: 700;
+}
+.img_part img {
+    width: 500px;
+    height: 577px;
+    border-radius: 10px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.coding_discription{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px 15px;
+    gap: 20px;
+}
+.lets_coding{
+    text-align: center;
+    width: 340px;
+    height: 280px;
+    padding: 30px;
+    background-color: rgba(26, 55, 77, 0.05);
+    border-radius: 20px
+    transition: all 4s ease-in-out;
+    border-radius: 5px;
+    box-shadow: rgb(31 31 31 / 12%) 0px 1px 6px, rgb(31 31 31 / 12%) 0px 1px 4px;
+}
+.icon_size{
+    padding: 10px 4px;
+    font-size: 60px;
+    color: cornflowerblue;
+}
