@@ -52,13 +52,13 @@
 .coding__img_section{
     display: flex;
     flex-direction: row;
-    gap: 20px;
-
+    gap: 40px;
 }
 .coding__img_section img{
     width: 300px;
     height: 300px;
     border-radius: 10px;
+    box-shadow: 0 10px 11px 6px #565e64;
 }
 /* header section style end */
 
