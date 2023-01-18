@@ -106,7 +106,6 @@
     padding: 30px;
     background-color: rgba(26, 55, 77, 0.05);
     border-radius: 20px
-    transition: all 4s ease-in-out;
     border-radius: 5px;
     box-shadow: rgb(31 31 31 / 12%) 0px 1px 6px, rgb(31 31 31 / 12%) 0px 1px 4px;
 }
@@ -117,8 +116,13 @@
 }
 /* content section style start */
 
-.coding_life_titel{
-    padding-bottom: 30px;
+/* love of coding style start */
+.coding_life_titel_love{
+    padding-bottom: 70px;
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--text-color);
+    text-align: center;
 }
 .middle_section{
     display: flex;
@@ -126,8 +130,7 @@
     justify-content: center;
     background-color: #ffffff;
     border-radius: 20px
-    border-radius: 5px;
-    box-shadow: rgb(31 31 31 / 12%) 0px 1px 6px, rgb(31 31 31 / 12%) 0px 1px 4px;
+    box-shadow: rgb(31 31 31 / 23%) 0px 1px 6px, rgb(31 31 31 / 20%) 0px 1px 12px;
     gap: 20px;
     transition : all 4s ease-in-out;
 }
@@ -154,5 +157,58 @@
     font-weight: 400;
     margin-left: 20px;
     color: var(--text-color);
-    box-shadow: rgb(31 31 31 / 12%) 0px 1px 6px, rgb(31 31 31 / 12%) 0px 1px 4px;
+    box-shadow: rgb(31 31 31 / 23%) 0px 1px 6px, rgb(31 31 31 / 20%) 0px 1px 12px;
 }
+.middle_section:hover{
+    box-shadow: rgb(31 31 31 / 12%) 0px 1px 6px, rgba(14, 53, 208, 0.12) 0px 1px 4px;
+}
+.btn-primary:hover{
+    box-shadow: rgb(31 31 31 / 12%) 0px 1px 6px, rgba(14, 53, 208, 0.12) 0px 1px 4px;
+}
+/* love of coding style end */
+
+/* coding box section style start*/
+.coding_box_content{
+    text-align: center;
+}
+.coding__box_heading{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.coding_box_content_discription{
+    font-weight: 400;
+    color: var(--secondly-text-color);
+}
+.coding__all__box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap: 20px;
+}
+.coding_box{
+    Width: 329px;
+    Height: 245px;
+}
+
+
+
+.coding__box_titel{
+    font-weight: 700;
+    color: var(--text-color);
+}
+.coding_box_description{
+    font-weight: 400;
+    color: var(--secondly-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* coding box section style end */
